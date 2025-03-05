@@ -109,7 +109,7 @@ export default function LandingPage() {
         </h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
-          {features.map((feature, index) => (
+          {features.map((feature) => (
             <motion.div
               key={feature.title}
               whileHover={{ y: -10 }}
